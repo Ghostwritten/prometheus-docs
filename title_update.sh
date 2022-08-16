@@ -24,7 +24,7 @@ update=$1
 
 user='Ghostwritten'
 email='1zoxun1@gmail.com'
-repo="github.com/${user}/kubernetes-docs.git"
+repo="github.com/${user}/prometheus-docs.git"
 
 #rm -rf About.md 
 book sm
