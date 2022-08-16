@@ -1,0 +1,185 @@
+{
+  "title": "Prometheus Docs",
+  "author": "宗勋 - zongxun",
+  "description": "这是一本关于 [Prometheus](https://kubernetes.io/) 的书籍",
+  "language": "zh-hans",
+  "links": {
+     "sharing": {
+         "all": null,
+         "facebook": null,
+         "google": null,
+         "twitter": null,
+         "weibo": null
+     },
+
+     "sidebar": {
+        "Blog": "https://smoothies.com.cn",
+        "Command": "https://smoothies.com.cn/linux-command-docs/Overview.html",
+        "Linux": "https://smoothies.com.cn/linux-docs/Overview.html",
+        "Gitbook": "https://smoothies.com.cn/gitbook-docs/Overview.html",
+        "Prometheus": "https://smoothies.com.cn/prometheus-docs/Overview.html",
+        "Docker": "https://smoothies.com.cn/docker-docs/Overview.html",
+        "Kubernetes": "https://smoothies.com.cn/kubernetes-docs/Overview.html",
+        "Shell": "https://smoothies.com.cn/shell-docs/Overview.html",
+        "Python": "https://smoothies.com.cn/python-docs/Overview.html",
+        "Go": "https://smoothies.com.cn/go-docs/Overview.html",
+        "Exam": "https://ghostwritten.gitbook.io/prometheus-exam-in-action/"
+     }
+  },
+  "plugins": [
+    "3-ba",
+    "accordion",
+    "advanced-emoji",
+    "anchor-navigation-ex",
+    "baidu-tongji",
+    "code",
+    "change_girls",
+    "custom-favicon",
+    "donate",
+    "expandable-chapters-small",
+    "edit-link",
+    "flexible-alerts",
+    "github-buttons",
+    "github",
+    "insert-logo",
+    "musicxml",
+    "prism",
+    "prism-themes",
+    "pageview-count",
+    "-highlight",
+    "-search",
+    "-lunr",
+    "rss",
+    "search-plus",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "sidebar-style",
+    "simple-mind-map",
+    "youtube",
+    "theme-default",
+    "tags",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+
+    "github": {
+      "url": "https://github.com/Ghostwritten"
+    },
+
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "Ghostwritten",
+          "repo": "prometheus-docs", 
+          "type": "star",
+          "count": true,
+          "size": "small"
+        }
+      ]
+    },
+
+    "change_girls" : {
+      "time" : 10,
+      "urls" : [
+         "https://pic3.zhimg.com/v2-6c577f651fe7e2213fff03c5f4dfb31e_r.jpg","https://pic3.zhimg.com/v2-7709a47d063e542afdc756fbc51ea0ba_r.jpg","https://pic1.zhimg.com/v2-1a0b00ef73bfe88a55e263417641c4f4_r.jpg","https://pic3.zhimg.com/v2-ae52e6f527d832f299057d58c0a444d2_r.jpg","https://pic2.zhimg.com/v2-51a570e2117156d7bb4507ec9a652f1d_r.jpg","https://pic2.zhimg.com/v2-9a7fb904940b062e74034c4195107ea9_r.jpg","https://pic3.zhimg.com/v2-3fa14950c42f9ff71c640462521da902_r.jpg","https://pic3.zhimg.com/v2-150d6818db64ed647f4566613f0a26be_r.jpg","https://pic3.zhimg.com/v2-62c950e007ffaa22bf8dfaa40ee5c976_r.jpg","https://pic4.zhimg.com/v2-91a8c8f53d08282ef2ac1d7b9440928f_r.jpg"
+      ]
+    },
+
+    "chapter-fold":{},
+
+    "favicon": "assets/imgs/kubernetes.ico",
+
+    "donate": {
+      "button": "打赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏",
+      "alipay": "https://github.com/Ghostwritten/prometheus-docs/blob/gh-pages/assets/imgs/aplipay.png?raw=true",
+      "wechat": "https://github.com/Ghostwritten/prometheus-docs/blob/gh-pages/assets/imgs/wechat.png?raw=true"
+    },
+
+    "edit-link": {
+     "base": "https://github.com/Ghostwritten/prometheus-docs/edit/master/",
+     "label": "Edit"
+    },
+
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-holi-theme.css"
+      ],
+      "lang": {
+        "shell": "bash"
+      }
+    },
+
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy ghostwritten 浙ICP备2020032454号 2022",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "baidu-tongji": {
+      "token": "55e7dfe47f4dc1c018d4042fdfa62565"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+
+    "sidebar-style": {
+       "title": "《Prometheus Docs》",
+       "author": "宗勋"
+    },
+
+    "flexible-alerts": {
+      "note": {
+        "label": "Note"
+      },
+      "tip": {
+        "label": "Tip"
+      },
+      "warning": {
+        "label": "Warning"
+      },
+      "danger": {
+        "label": "Danger"
+      }
+    },
+
+    "3-ba": {
+        "token": "9ffc0dce8d7079aceab6b0bc18eb626b"
+    },
+
+    "insert-logo": {
+      "url": "https://pic1.zhimg.com/80/v2-4b2cfc61824c35b4d577c4e5d5dc1134_1440w.jpg",
+      "style": "background: none; max-height: 120px; min-height: 120px"
+    },
+
+
+    "rss": {
+      "title": "Prometheus Docs",
+      "description": "This is the best book ever.",
+      "author": "宗勋",
+      "feed_url": "http://smoothies.com.cn/rss",
+      "site_url": "https://smoothies.com.cn/prometheus-docs/",
+      "managingEditor": "writer@smoothies.com.cn (Zong Xun)",
+      "webMaster": "webmaster@smoothies.com.cn (Zong Xun)",
+      "categories": [
+        "kubernetes"
+      ]
+    },
+
+    "sharing": {
+      "douban": false,
+      "facebook": true,
+      "google": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "twitter": true,
+      "weibo": false,
+      "all": [
+        "facebook", "google", "twitter",
+        "weibo", "instapaper"
+      ]
+   }
+  }
+}
