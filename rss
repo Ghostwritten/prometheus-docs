@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Prometheus Docs]]></title>
+        <description><![CDATA[This is the best book ever.]]></description>
+        <link>https://smoothies.com.cn/prometheus-docs/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 13 Sep 2022 10:01:06 GMT</lastBuildDate>
+        <atom:link href="http://smoothies.com.cn/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[宗勋]]></author>
+        <managingEditor><![CDATA[writer@smoothies.com.cn (Zong Xun)]]></managingEditor>
+        <webMaster><![CDATA[webmaster@smoothies.com.cn (Zong Xun)]]></webMaster>
+        <category><![CDATA[kubernetes]]></category>
+        <item>
+            <title><![CDATA[目录]]></title>
+            <link>https://smoothies.com.cn/prometheus-docs/Overview.html</link>
+            <guid isPermaLink="true">https://smoothies.com.cn/prometheus-docs/Overview.html</guid>
+            <dc:creator><![CDATA[宗勋]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[序言]]></title>
+            <description><![CDATA[这是一本关于集合 prometheus 的书。]]></description>
+            <link>https://smoothies.com.cn/prometheus-docs/</link>
+            <guid isPermaLink="true">https://smoothies.com.cn/prometheus-docs/</guid>
+            <dc:creator><![CDATA[宗勋]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[alertmanager 简介]]></title>
+            <description><![CDATA[tags: alertmanager]]></description>
+            <link>https://smoothies.com.cn/prometheus-docs/Alertmanager/README.html</link>
+            <guid isPermaLink="true">https://smoothies.com.cn/prometheus-docs/Alertmanager/README.html</guid>
+            <dc:creator><![CDATA[宗勋]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[prometheus 简介]]></title>
+            <description><![CDATA[tags: prometheus]]></description>
+            <link>https://smoothies.com.cn/prometheus-docs/Prometheus/README.html</link>
+            <guid isPermaLink="true">https://smoothies.com.cn/prometheus-docs/Prometheus/README.html</guid>
+            <dc:creator><![CDATA[宗勋]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://smoothies.com.cn/prometheus-docs/Grafana/README.html</link>
+            <guid isPermaLink="true">https://smoothies.com.cn/prometheus-docs/Grafana/README.html</guid>
+            <dc:creator><![CDATA[宗勋]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://smoothies.com.cn/prometheus-docs/Exporters/README.html</link>
+            <guid isPermaLink="true">https://smoothies.com.cn/prometheus-docs/Exporters/README.html</guid>
+            <dc:creator><![CDATA[宗勋]]></dc:creator>
+        </item>
+    </channel>
+</rss>
